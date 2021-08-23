@@ -1,4 +1,4 @@
-# Tor-Onion-Service-On-Heroku
+## Tor-Onion-Service-On-Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 <!--
 ![IMG_20210822_194228.jpg](IMG_20210822_194228.jpg)
@@ -37,7 +37,7 @@ heroku --version
 heroku login
 ```
 
-### Quick Start
+#QuickStart
 
 - 1 . Create a new project, for example in my case  `Tor-Onion-Service-On-Heroku`.
 
