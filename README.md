@@ -18,7 +18,7 @@
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 
     _Note :- Since,heroku has an ephemerals file system that is destroyed every time when your app restart's.So your application will generate a new .onion link everytime when your app restarts._
-- 3.
+- 3 .
 ### Install Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
@@ -55,19 +55,21 @@ Creating ⬢ tor-onion-service-on-heroku... done
 https://tor-onion-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-onion-service-on-heroku.git
 ```
 - 4 . Now add two buildpacks `heroku-community/apt` and `heroku/php` to you application .To add these buildpacks enter  below commands in terminal
+      Adding `heroku/php` buildpack will run php on your heroku application.
+
 ```bash
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php
 ```
-- - Add this buildpack to heroku.This buildpack is used to run php on your application.
+- 5 . Add another `heroku-community/apt` buildpack to your  heroku application .This buildpack is used to install packages like  `tor` and `nodejs` in heroku application which are mentioned in  `Aptfile` file.
+
 ```bash
 heroku buildpacks:add --index 1 heroku-community/apt
 ```
- - - Add this buildpack to heroku.This buildpack is used to install packages like  `tor` and `nodejs` in heroku application which are mentioned in  `Aptfile` file.
 
-- 5 . Copy your website file's to the folder `site` folder </br>
-- - eg :- index.html,index.php [default=index.html]
+- 6 . Copy your website file's to the folder `site` folder </br>
+      eg :- index.html,index.php [default=index.html]
 
-- 6 . Copy the following files to `temp/var/lib/tor/hidden_service` dir</br> 
+- 7 . Copy the following files to `temp/var/lib/tor/hidden_service` dir</br> 
 
    - `hostname`
    - `hs_ed25519_public_key`
@@ -76,7 +78,7 @@ heroku buildpacks:add --index 1 heroku-community/apt
 - If you don't know where these files stored refer to **[https://2019.www.torproject.org/docs/tor-onion-service](https://2019.www.torproject.org/docs/tor-onion-service)**
   
 
-- 7 . Deploy your changes to heroku
+- 8 . Deploy your changes to heroku
 ```bash
 git add .
 git commit -am "Tor Onion Service On Heroku"
