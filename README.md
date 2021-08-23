@@ -11,7 +11,7 @@
 
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 
-- 3 . You will be navigated to [Heroku Dashboard](https://dashboard.heroku.com). Enter app name and click deploy app button.
+- 3 . You will be navigated to [Heroku Dashboard](https://dashboard.heroku.com). Enter app name in `App name` field and click `Deploy app` button.
 - 4 . Now your app is accessible over `Tor`.
 - 5 . To  know you .onion address open your heroku app `https://App-Name.herokuapp.com` and click on `show my .onion link`.</br></br>
       _Note :- Since,heroku has an ephemerals file system that is destroyed every time when your app restart's.So your application will generate a new .onion link everytime when your app restarts.</br>To use your custom permanent onion link go to [Manually Deploy to Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku/#Manually%20Deploy%20to%20Heroku)
