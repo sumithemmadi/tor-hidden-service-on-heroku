@@ -4,13 +4,7 @@
 ![IMG_20210822_194228.jpg](IMG_20210822_194228.jpg)
 -->
 
-### Prerequisites
-![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![image](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![image](https://img.shields.io/badge/git-000000?style=for-the-badge&logo=git&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white) 
-- 1 . `nodejs`
-- 2 . `tor` - v3
-- 3 . `php`
-- 4 . `git`
-- 5 . `Heroku CLI`
+
 # Ouick Deploy to heroku
 - 1 . Deploy your application to heroku and get .onion link.
 - 2 . Click below `Deploy to Heroku` Button.
@@ -23,6 +17,14 @@
       _Note :- Since,heroku has an ephemerals file system that is destroyed every time when your app restart's.So your application will generate a new .onion link everytime when your app restarts._
 
 # Manually Deploy to Heroku
+### Prerequisites
+![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![image](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![image](https://img.shields.io/badge/git-000000?style=for-the-badge&logo=git&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white) 
+- 1 . `nodejs`
+- 2 . `tor` - v3
+- 3 . `php`
+- 4 . `git`
+- 5 . `Heroku CLI`
+
 ### Install Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
@@ -36,6 +38,7 @@ heroku --version
 ```bash
 heroku login
 ```
+
 
 ### Quick Start
 
