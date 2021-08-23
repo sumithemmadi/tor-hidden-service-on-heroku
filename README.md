@@ -79,8 +79,14 @@ git push heroku
 
 - _Now your app is accessible over Tor_
 ## To know your .onion address
-- 1 . Open your heroku app 
-- 2 .https:// `App-Name` .herokuapp.com
+- 1 . run below command to know your onion address.
+```bash
+heroku run cat temp/var/lib/tor/hidden_service/hostname
+```
+![alt text](output.jp)
+- 
+- 3 . Open your heroku app 
+- 4 .https:// `App-Name` .herokuapp.com
 -  Output :-
 
 <!-- ![alt text](output.jp) -->
