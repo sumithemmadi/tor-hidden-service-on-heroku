@@ -61,7 +61,7 @@ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php
 - - Add this buildpack to heroku.This buildpack is used to run php on heroku.
 
 - 5 . Copy your website file's to the folder `site` folder </br>
-- - eg :- index.html,index.php [default=index html]
+- - eg :- index.html,index.php [default=index.html]
 
 - 6 . Copy the following files to `temp/var/lib/tor/hidden_service` dir</br> 
 
