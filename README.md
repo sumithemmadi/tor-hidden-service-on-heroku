@@ -1,4 +1,4 @@
-## Tor-Onion-Service-On-Heroku
+# Tor-Onion-Service-On-Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 <!--
 ![IMG_20210822_194228.jpg](IMG_20210822_194228.jpg)
@@ -10,8 +10,8 @@
 - 2 . `tor` - v3
 - 3 . `php`
 - 4 . `git`
-- 5 . `heroku CLI`
-### Ouick Deploy to heroku
+- 5 . `Heroku CLI`
+# Ouick Deploy to heroku
 - 1 . Deploy your application to heroku and get .onion link.
 - 2 . Click below `Deploy to Heroku` Button.
 
@@ -22,7 +22,7 @@
 - 5 . To  know you .onion address open your heroku app `https://App-Name.herokuapp.com` and click on `show my .onion link`.</br></br>
       _Note :- Since,heroku has an ephemerals file system that is destroyed every time when your app restart's.So your application will generate a new .onion link everytime when your app restarts._
 
-
+# Manually Deploy to Heroku
 ### Install Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
