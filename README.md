@@ -102,7 +102,7 @@ heroku run cat temp/var/lib/tor/hidden_service/hostname
 ```
 ![Image](output.jpg)
 ## Get onion link on heroku app
--  If you still can't find your .onion link. </br> Open your heroku app `https://App-Name.herokuapp.com` and click on `show my .onion link`.
+-  If you still can't find your .onion link. </br> Open your heroku app </br>`https://App-Name.herokuapp.com` and click on `show my .onion link`.
 <!-- ![alt text](output.jpg) -->
 
 ### My app
