@@ -1,0 +1,7 @@
+{
+  "name": "Tor Hidden Service",
+  "description": "Host a onion service in darkweb with heroku",
+  "repository": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "Tor", "static"]
+}
