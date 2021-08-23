@@ -15,7 +15,7 @@
 - 1 . Deploy your application to heroku and get .onion link 
 - 2 . Click below `Deploy to Heroku` Button.
 
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Install Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
