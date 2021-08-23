@@ -9,7 +9,7 @@
 - 1 . To host your website in dark web and run server on heroku
 - 2 . Click below `Deploy to Heroku` Button.
 
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
 
 - 3 . You will be navigated to [Heroku Dashboard](https://dashboard.heroku.com). Enter app name and click deploy app button.
 - 4 . Now your app is accessible over `Tor`.
