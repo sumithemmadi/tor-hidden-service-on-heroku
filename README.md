@@ -49,16 +49,14 @@ Creating ⬢ tor-onion-service-on-heroku... done
 https://tor-onion-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-onion-service-on-heroku.git
 ```
 - 4 . Now add two buildpacks `heroku-community/apt` and `heroku/php` to you application .To add these buildpacks enter  below commands in terminal
-
+```bash
+heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php
+```
+- - Add this buildpack to heroku.This buildpack is used to run php on your application.
 ```bash
 heroku buildpacks:add --index 1 heroku-community/apt
 ```
  - - Add this buildpack to heroku.This buildpack is used to install packages like  `tor` and `nodejs` in heroku application which are mentioned in  `Aptfile` file.
-
-```bash
-heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php
-```
-- - Add this buildpack to heroku.This buildpack is used to run php on heroku.
 
 - 5 . Copy your website file's to the folder `site` folder </br>
 - - eg :- index.html,index.php [default=index.html]
