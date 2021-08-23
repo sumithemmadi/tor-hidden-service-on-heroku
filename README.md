@@ -84,13 +84,10 @@ git push heroku
 heroku run cat temp/var/lib/tor/hidden_service/hostname
 ```
 ![Image](output.jpg)
-- 
-- 3 . Open your heroku app 
-- 4 .https:// `App-Name` .herokuapp.com
--  Output :-
-
+## Get onion link on heroku app
+-  If you still can't find your .onion link. </br> Open your heroku app `https://App-Name.herokuapp.com` and click on `show my .onion link`.
 <!-- ![alt text](output.jpg) -->
-- 
+
 ### My app
 
 -  **[https://tor-onion-service-on-heroku.herokuapp.com/](https://tor-onion-service-on-heroku.herokuapp.com/)**
