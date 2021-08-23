@@ -83,7 +83,7 @@ git push heroku
 ```bash
 heroku run cat temp/var/lib/tor/hidden_service/hostname
 ```
-![alt text](output.jp)
+![Image](output.jp)
 - 
 - 3 . Open your heroku app 
 - 4 .https:// `App-Name` .herokuapp.com
