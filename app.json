@@ -10,7 +10,7 @@
   "addons": [],
   "env": {},
   "website": "https://sumithemmadi.github.io/Tor-Onion-Service-On-Heroku/",
-  "repository": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku.git",
+  "repository": "https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku",
   "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiwdhzG4NDtmTz5rs83HI_4sE_8FtUHuGXw&usqp=CAU",
   "success_url": "/",
   "scripts": {
