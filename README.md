@@ -6,7 +6,7 @@
 
 
 # Ouick Deploy to heroku
-- 1 . Deploy your application to heroku and get .onion link.
+- 1 . To host your website in dark web and run server on heroku
 - 2 . Click below `Deploy to Heroku` Button.
 
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
