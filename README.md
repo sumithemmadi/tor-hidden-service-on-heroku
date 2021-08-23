@@ -12,6 +12,7 @@
 - 4 . `git`
 - 5 . `heroku CLI`
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Install Heroku
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
