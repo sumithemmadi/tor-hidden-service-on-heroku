@@ -89,7 +89,7 @@ heroku run cat temp/var/lib/tor/hidden_service/hostname
 - 4 .https:// `App-Name` .herokuapp.com
 -  Output :-
 
-<!-- ![alt text](output.jp) -->
+<!-- ![alt text](output.jpg) -->
 - 
 ### My app
 
