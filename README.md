@@ -37,7 +37,7 @@ heroku --version
 heroku login
 ```
 
-#QuickStart
+# QuickStart
 
 - 1 . Create a new project, for example in my case  `Tor-Onion-Service-On-Heroku`.
 
