@@ -64,8 +64,7 @@ heroku apps:create App-Name
  Creating ⬢ tor-onion-service-on-heroku... @@ done
  https://tor-onion-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-onion-service-on-heroku.git
 ```
-- 4 . Now add two buildpacks `heroku-community/apt` and `heroku/php` to you application .To add these buildpacks enter  below commands in terminal
-      Adding `heroku/php` buildpack will run php on your heroku application.
+- 4 . Now add two buildpacks `heroku-community/apt` and `heroku/php` to you application .Adding `heroku/php` buildpack will run php on your heroku application.
 
 ```bash
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-php
