@@ -59,10 +59,10 @@ heroku apps:create App-Name
 -  `heroku apps:create App-Name` this command creates the application as well as a git remote, that you can use to push your code to Heroku:
  
 -  _Note: replace `App-Name` with  any other name._
-```bash
-$ heroku apps:create tor-onion-service-on-heroku
-Creating ⬢ tor-onion-service-on-heroku... done
-https://tor-onion-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-onion-service-on-heroku.git
+```diff
++ $ heroku apps:create tor-onion-service-on-heroku
+ Creating ⬢ tor-onion-service-on-heroku... @@ done
+ https://tor-onion-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-onion-service-on-heroku.git
 ```
 - 4 . Now add two buildpacks `heroku-community/apt` and `heroku/php` to you application .To add these buildpacks enter  below commands in terminal
       Adding `heroku/php` buildpack will run php on your heroku application.
