@@ -7,6 +7,7 @@
 
 # Ouick Deploy to heroku
 - 1 . To host your website in dark web and run server on heroku
+</br> _Note : Deploy with  heroku Deploy  button will host a demo webpage you  can not use your html file.to host your own webpage goto  <b>manually deploy to Heroku</b> Session_
 - 2 . Click below `Deploy to Heroku` Button.
 
     [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku)
