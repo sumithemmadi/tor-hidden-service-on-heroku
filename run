@@ -1,0 +1,7 @@
+#!/bin/bash
+apt update && apt upgrade -y
+apt install php -y
+cd public_html
+echo -e "\n\033[0;32m\n\nRunning server on 127.0.0.1:4000"
+echo -e "\033[0;31mRun 'Tor' on port 4000\n\033[0;32m"
+php -S localhost:4000
