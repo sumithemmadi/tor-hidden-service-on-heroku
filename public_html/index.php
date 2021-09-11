@@ -32,7 +32,7 @@
           <?php
           if (file_exists('../temp/var/lib/tor/hidden_service/hostname')) {
               $output = shell_exec('cat ../temp/var/lib/tor/hidden_service/hostname');
-              echo "Congratulation your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
+              echo "Congratulation's 🥳🥳 your application is over tor <br>Here is your Onion Link <a href=http://$output>$output</a>";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong<br>Refer to  Github Repository <br><a href="https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme">https://github.com/sumithemmadi/tor-hidden-service-on-heroku#readme</a></p>';
