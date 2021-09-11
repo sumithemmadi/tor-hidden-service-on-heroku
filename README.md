@@ -68,19 +68,19 @@ heroku apps:create App-Name
  Creating ⬢ tor-heroku... done
  https://tor-heroku.herokuapp.com/ | https://git.heroku.com/tor-heroku.git
 ```
-- 4 . Now add three buildpacks `heroku/nodejs` ,`heroku/php` and `heroku-community/apt` to you application.
-
-- - heroku-community/apt
-
-```bash
-heroku buildpacks:add --index 1 heroku-community/apt
-```
+- 4 . Now add two buildpacks `heroku/php` and `heroku-community/apt` to you application.
 
 - - heroku/php
 
 ```bash
 heroku buildpacks:set heroku/php
 ```
+- - heroku-community/apt
+
+```bash
+heroku buildpacks:add --index 1 heroku-community/apt
+```
+
 
 - Sometimes adding 2nd buildpack will remove 1st one (or) adding 3rd buildpack will remove 2nd one ,try adding all three buildpacks again and again one by one untill you see three buildpacks added as shown in below picture.
 
