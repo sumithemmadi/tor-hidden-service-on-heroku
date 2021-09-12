@@ -27,7 +27,7 @@
 
 ![image](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![image](https://img.shields.io/badge/git-000000?style=for-the-badge&logo=git&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white) 
 
-- 1. `tor` - v3
+- 1 . `tor` - v3
 - 2 . `php`
 - 3 . `git`
 - 4 . `Heroku CLI`
