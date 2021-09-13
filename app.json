@@ -12,7 +12,7 @@
   "env": {},
   "website": "https://sumithemmadi.github.io/tor-hidden-service-on-heroku",
   "repository": "https://github.com/sumithemmadi/tor-hidden-service-on-heroku",
-  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHiwdhzG4NDtmTz5rs83HI_4sE_8FtUHuGXw&usqp=CAU",
+  "logo": "https://raw.githubusercontent.com/sumithemmadi/tor-hidden-service-on-heroku/main/public_html/img/favicon.png",
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-php"
