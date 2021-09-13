@@ -2,7 +2,7 @@
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
 - Host Tor v3 Hidden Service in dark web using heroku
-- I'm building this with php please go with below link 
+
 - Try my another repository https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku
 <!--
 ![IMG_20210822_194228.jpg](IMG_20210822_194228.jpg)
