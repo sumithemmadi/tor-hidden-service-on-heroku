@@ -3,7 +3,7 @@
 
 - Host Tor v3 Hidden Service in dark web using heroku
 
-- Try my another repository https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku
+- Try my another repository built with `nodejs` https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku
 <!--
 ![IMG_20210822_194228.jpg](IMG_20210822_194228.jpg)
 -->
