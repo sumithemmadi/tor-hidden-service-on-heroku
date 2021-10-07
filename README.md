@@ -84,7 +84,7 @@ heroku buildpacks:add --index 1 heroku-community/apt
 
 - Sometimes adding 2nd buildpack will remove 1st one ,try adding two  buildpacks again and again one by one untill you see two buildpacks added as shown in below picture.
 
-![image](https://raw.githubusercontent.com/sumithemmadi/Tor-Onion-Service-On-Heroku/gh-pages/images/builtpack.jpg)
+![image](https://user-images.githubusercontent.com/50250422/136435430-e3500932-4ee7-4635-b2b3-d99c7d10f496.jpg)
 - 6 . Copy your website file's to the folder `site` <br>
       eg :- index.html,index.php [default=index.html]
 
