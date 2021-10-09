@@ -97,14 +97,28 @@ heroku buildpacks:add --index 1 heroku-community/apt
 
     > If you don't know where these files stored refer to **[https://2019.www.torproject.org/docs/tor-onion-service](https://2019.www.torproject.org/docs/tor-onion-service)**
   
+- 8 . Or go down to testing session to generate tor onion addresses.
 
-- 8 . Deploy your changes to heroku
+- 9 . Deploy your changes to heroku
 ```bash
 git add .
 git commit -am "Updated"
 git push heroku
 ```
+## Testing
 
+- 1 . Clone this repository with below command
+```bash
+git clone https://github.com/sumithemmadi/tor-hidden-service-on-heroku
+cd tor-hidden-service-on-heroku
+```
+
+- 2 . Run below command
+
+```bash
+~$ ./run
+```
+- 3 . Now open http://localhost:4000/ in any browser.
 - _Now your app is accessible over Tor_
 ## To know your .onion address
 - Run below command to know your onion address.
