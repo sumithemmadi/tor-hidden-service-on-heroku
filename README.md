@@ -119,8 +119,13 @@ cd tor-hidden-service-on-heroku
 ~$ ./run
 ```
 - 3 . Now open http://localhost:4000/ in any browser.
-- _Now your app is accessible over Tor_
-## To know your .onion address
+- 4 . Now your app is accessible over Tor.
+- 5 . Check your app is accessible over tor by running below command in new terminal.
+```bash
+curl -v --socks5-hostname localhost:9050 [YOU ONION ADDRESS]
+```
+
+## To know your .onion address on heroku
 - Run below command to know your onion address.
 
 ```bash
