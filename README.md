@@ -64,9 +64,9 @@ heroku apps:create App-Name
 
     > _Note: replace `App-Name` with  any other name._
 ```bash
- $ heroku apps:create tor-heroku
- Creating ⬢ tor-heroku... done
- https://tor-heroku.herokuapp.com/ | https://git.heroku.com/tor-heroku.git
+ $ heroku apps:create tor-hidden-service-on-heroku
+ Creating ⬢ tor-hidden-service-on-heroku... done
+ https://tor-hidden-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-hidden-service-on-heroku.git
 ```
 - 4 . Now add two buildpacks `heroku/php` and `heroku-community/apt` to you application.
 
@@ -137,4 +137,4 @@ heroku run cat temp/var/lib/tor/hidden_service/hostname
    > _Note : Due to herokus policies, a single web dyno is sent to sleep after 30 minutes of inactivity. This means if your application has not served any requests for 30 minutes, it is forced to sleep by heroku and has to wake up prior to serve a new request, which easily can take up to 30–40 seconds. Generally free dynos will sleep (shut down) after 30 minutes of inactivity. This is actually a feature to avoid using up your free dyno hours. To prevent Heroku app from idling add [New Relic add-on](https://elements.heroku.com/addons/newrelic). It has an availability monitor feature that will ping your site twice per minute, thus preventing the dyno from idling (Or) add  [Uptimerobot](https://uptimerobot.com/) it is free and offers 5 min interval site checking._
 
 -  Here is my app 
-    **[https://tor-heroku.herokuapp.com/](https://tor-heroku.herokuapp.com/)**
+    https://tor-hidden-service-on-heroku.herokuapp.com/
