@@ -2,7 +2,7 @@
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsumithemmadi%2FTor-Onion-Service-On-Heroku.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsumithemmadi%2FTor-Onion-Service-On-Heroku?ref=badge_shield)
-[![Version](https://img.shields.io/badge/Version-1.0.2-blue)](https://github.com/sumithemmadi/tor-hidden-service-on-heroku)
+[![Version](https://img.shields.io/badge/Version-1.0.3-blue)](https://github.com/sumithemmadi/tor-hidden-service-on-heroku)
 [![Licence](https://img.shields.io/github/license/sumithemmadi/tor-hidden-service-on-heroku)](https://github.com/sumithemmadi/tor-hidden-service-on-heroku)
 [![issues](https://img.shields.io/github/issues/sumithemmadi/tor-hidden-service-on-heroku)](https://github.com/sumithemmadi/tor-hidden-service-on-heroku)
 [![stars](https://img.shields.io/github/stars/sumithemmadi/tor-hidden-service-on-heroku)](https://github.com/sumithemmadi/tor-hidden-service-on-heroku)
