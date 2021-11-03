@@ -1,1 +1,13 @@
-{}
+{
+    "name": "sumithemmadi/tor-hidden-service-on-heroku",
+    "description": "Host Tor v3 Hidden services in dark web on Heroku",
+    "type": "project",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "sumithemmadi",
+            "email": "sumithemmadi244@gmail.com"
+        }
+    ],
+    "require": {}
+}
